@@ -33,7 +33,7 @@ function showVar() {
 showVar();
 ```
 
-- Local Scope: A variable declared inside a function or block is accessible only within that function/block.
+- Local Scope / Function Scope: A variable declared inside a function or block is accessible only within that function/block.
 ```JavaScript
 function myFunction() {
   var localVar = 'I am local';
@@ -49,6 +49,35 @@ if (true) {
   console.log(blockScopedVar);  // Accessible inside the block
 }
 console.log(blockScopedVar);  // Error: blockScopedVar is not defined
+```
+
+- Outer Scope: The outer scope is the global scope or any scope `that encloses other` scopes (like functions or blocks). Variables declared in the outer scope are accessible by all inner scopes within it. It is sometimes called the `parent scope` or `global scope`. The outer scope can access variables from inner scopes only if those variables are explicitly passed out or returned.
+```JavaScript
+// Outer Scope
+var outerVar = 'I am in the outer scope';
+
+function outerFunction() {
+  // Inner Scope
+  console.log(outerVar);  // Accessing outer scope variable inside inner scope
+}
+
+outerFunction();
+```
+
+- Inner scope: is a `nested scope` that resides within another scope, such as inside a function or a block. Variables declared in the inner scope are `only accessible` within that scope. The inner scope is often referred to as the `child scope`. It can access variables from the outer scope (known as lexical scoping), but the outer scope cannot directly access variables from the inner scope unless explicitly returned or passed out.
+```JavaScript
+function innerFunction() {
+  // Inner Scope
+  var innerVar = 'I am in the inner scope';
+  
+  // Accessing inner scope variable outside would normally be not allowed
+  return innerVar;  // Returning innerVar to the outer scope
+}
+
+// Outer Scope
+var outerVar = innerFunction();
+console.log(outerVar);  // Accessing the inner scope variable after it's returned
+
 ```
 
 ## Variable Shadowing
