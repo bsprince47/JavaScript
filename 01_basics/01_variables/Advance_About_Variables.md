@@ -2,6 +2,7 @@
 
 [Variable Hoisting with `var`, `let`, and `const`](#variable-hoisting-with-var-let-and-const)  
 [Variable Scope: Global, Local, and Block Scope](#variable-scope-global-local-and-block-scope)  
+[Lexical Scope](#Lexical-Scope)  
 [Variable Shadowing](#variable-shadowing)  
 [Re-declaration Rules](#re-declaration-rules)  
 [Variables and Strict Mode](#variables-and-strict-mode)  
