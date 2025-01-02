@@ -11,7 +11,7 @@
 
 
 ## Variable Hoisting with `var`, `let`, and `const`
-- `var`: Variables declared with `var` are hoisted to the top of their scope (global or function scope), but their values are not initialized until the code execution reaches the declaration line.
+- Variables declared with `var` are hoisted to the top of their scope (global or function scope). During hoisting, they are automatically initialized to `undefined`. However, the developer-assigned value is not applied until the code execution reaches the initialization line.
 ```JavaScript
 console.log(x); // undefined
 var x = 10;
