@@ -21,23 +21,6 @@ Password = 'Random!83245'
 console.log(Password) // ✔️ Print value
 ```  
 
-```JavaScript
-var global = 'global';
-
-function globalvaraccess() {
-    console.log(global) // ✔️ Print value
-
-    var fnScope = "functionScope"; 
-    if (true) {
-        console.log(global) // ✔️ Print value
-        console.log(fnScope) // ✔️ Print value
-    }
-}
-
-console.log(global) // ✔️ Print value
-console.log(fnScope)  // ❌ Throw Errer ReferenceError: fnScope is not defined
-
-```
 
 
 

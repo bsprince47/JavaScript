@@ -10,7 +10,7 @@ const y;
 ```
 - `var z` When declare z with var, it is hoisted and assigned and initial value of `undefined`.
 - `let x;` This tells JavaScript that you are creating a variable named x.
-- `const y` It also create variable but if you immediately It will throw error.
+- `const y` It also create variable but if you not `initialize` immediately It will throw error.
 
 ## Initialization
 > Initiazation is the process of assigning and initial value to a variable. This happend right after a declaration.

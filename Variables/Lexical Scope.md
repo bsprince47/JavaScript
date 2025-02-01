@@ -1,5 +1,5 @@
 
-# Lexical Scope
+# Lexical Scope / Static Scope
 - In lexical scope, a function has access to variables and other functions defined in its parent scope, grandparent scope, and so on, all the way up the chain. This means that no matter how deep the nesting of functions goes, an inner function can always access the variables of its outer functions because of the lexical scope chain.
 - **Lexical scope** refers to how variables are resolved based on their **physical location** in the source code.
 - A function's scope is determined by where it is **declared**, not where it is **called**.
