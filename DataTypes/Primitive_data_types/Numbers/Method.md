@@ -1,3 +1,4 @@
+# Method 
 
 [Number.isInteger()](#numberisintegervalue)   
 [Number.isFinite()](#numberisfinitevalue)  
