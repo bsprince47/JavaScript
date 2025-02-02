@@ -39,3 +39,8 @@
 4. [Boolean Comparison](./DataTypes/Primitive%20Data%20Types/Boolean/Comparison.md)  
 4. [Boolean Comparison](./DataTypes/Primitive%20Data%20Types//Boolean/Boolearn%20Conversion.md)  
 5. [Boolean Real Use](./DataTypes/Primitive%20Data%20Types/Boolean/Real%20Use.md)  
+
+### Undefined Data Types
+1. [Undefined Basics](./DataTypes/Primitive%20Data%20Types/Undefined/Basics.md)
+2. [Undefined Comperison](./DataTypes/Primitive%20Data%20Types/Undefined/Comperison.md)
+3. [Undefined Conversion](./DataTypes/Primitive%20Data%20Types/Undefined/Conversion.md)
