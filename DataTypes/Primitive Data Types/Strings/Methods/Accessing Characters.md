@@ -13,3 +13,10 @@ console.log(str[0]); // 'B'
 ```jsx
 console.log(str.charAt(1)); // 'S'
 ```
+
+### at()
+```jsx
+console.log(str.at(2));
+```
+
+
