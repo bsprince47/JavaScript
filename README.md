@@ -44,3 +44,10 @@
 1. [Undefined Basics](./DataTypes/Primitive%20Data%20Types/Undefined/Basics.md)
 2. [Undefined Comperison](./DataTypes/Primitive%20Data%20Types/Undefined/Comperison.md)
 3. [Undefined Conversion](./DataTypes/Primitive%20Data%20Types/Undefined/Conversion.md)
+
+### BigInt
+
+1. [BigInt Basics](./DataTypes/Primitive%20Data%20Types/BigInt/Basic.md)
+
+### Symbol
+1. [Symbol Basics](./DataTypes/Primitive%20Data%20Types/Symbol/Basics.md)
