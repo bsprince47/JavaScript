@@ -55,3 +55,17 @@ console.log(Object.getPrototypeOf(user1) === User.prototype) // true
 
 user1.greet();
 ```
+
+
+
+
+> [!NOTE]
+> Instead of __proto__ use `Object.create()` for setting prototypes.
+
+### Why __proto__ is Not Recommended:
+Even though it works, it's not recommended to use __proto__ because:
+
+1. Performance Issues – Directly modifying __proto__ can slow down prototype chain lookups, making the app less efficient.
+2. Not Standardized for Object Creation – Object.create() is the official way to set prototypes.
+3. Confusing and Hard to Debug – Modifying an object's prototype manually can lead to unexpected behavior, especially in large codebases.
+4. Security Risks – If you're modifying __proto__ improperly, it can lead to prototype pollution, making objects inherit unwanted properties.
