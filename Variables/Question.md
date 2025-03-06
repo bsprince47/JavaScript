@@ -10,6 +10,7 @@ What is the scope of a variable declared using `var`?
 ###### Details
 A variable declared with `var` is function-scoped, meaning it is accessible throughout the entire function where it is defined, including within nested blocks.
 
+---
 
 ###### Question 2
 What will be the output of the following JavaScript code?
@@ -26,6 +27,7 @@ console.log(hint);
 ###### Details
 Due to hoisting, the `var` declaration is moved to the top, but its value is not initialized until the assignment line is reached. So, `console.log(hint)` before initialization returns `undefined`.
 
+---
 
 ###### Question 3
 Which of the following statements about `let` is true?
@@ -38,6 +40,7 @@ Which of the following statements about `let` is true?
 ###### Details
 Variables declared with `let` are block-scoped, meaning they exist only within the `{}` block they are defined in. Unlike `var`, they cannot be redeclared in the same scope. However, `let` is hoisted but remains in the temporal dead zone until initialization.
 
+---
 
 ###### Question 4
 What happens if you try to redeclare a variable using `let` in the same scope?
@@ -53,6 +56,7 @@ let userId = "456";
 ###### Details
 `let` does not allow redeclaration in the same scope, which leads to a SyntaxError.
 
+---
 
 ###### Question 5
 What will be the output of the following JavaScript code?
@@ -68,7 +72,7 @@ console.log(password);
 
 ###### Details
 A `const` variable must be initialized at the time of declaration and cannot be reassigned. Attempting to do so results in a TypeError.
-
+---
 
 ###### Question 6
 Which of the following is true about `const` in JavaScript?
@@ -81,7 +85,7 @@ Which of the following is true about `const` in JavaScript?
 ###### Details
 `const` requires an initial value at the time of declaration and cannot be reassigned later. However, for objects and arrays declared with `const`, their properties or elements can still be modified.
 
-
+---
 ###### Question 7
 Which of the following correctly describes hoisting behavior for `let` and `const`?
 
